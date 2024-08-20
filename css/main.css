@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+body {
+  font-family: "Quicksand", sans-serif;
+  font-size: 120%;
+}
+.Header {
+  display: flex;
+ 
+  background-size: cover;
+  color: white;
+  padding:20px;
+  justify-content: space between;
+  align-items: center;
+  font-size: xx-large;
+}
+.HeaderImage{
+  background-image:url(https://cdn-boial.nitrocdn.com/lrJSTMUhHaOSnJLNCZvsPgAAIjWcEmgs/assets/images/optimized/rev-2984021/nzpocketguide.com/wp-content/uploads/2015/12/Nukunuku-beach-island-Mandatory-credit-to-TongaPocketGuide.com-Feature.jpg); 
+  height: 50%;
+}
+header {
+  display: flex;
+  align-items: center;
+  background: #ffffff; 
+  }
+header h1 {
+  text-align: left;
+  font-family: "Libre Baskerville", serif;
+  font-size: 250%;
+  font-weight: lighter;
+  color: inherit;
+} 
+nav {
+  background-color: red;
+  display:flex; /* Display the children of this element as flexible boxes */
+  align-items: center; /*Align child flexible boxes in the vertical center */
+}
+nav p {
+  flex-basis: 100px; /* Give each paragraph the same basic width */
+  flex-grow: 1; /*Allow each paragraph to grow evenly to fill up the parent nav element */   
+   text-align:center;
+}
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+nav a:hover {
+  color: red; 
+}
+footer {
+   background-color: red; /* background or background-color both work */
+  position: fixed; /* fix to the viewport */
+  bottom: 0; /* Start 0 pixels from th bottom of the viewport */
+  left: 0; /* Start 0 pixels from the left of the viewpoint */
+  width: 100%; /* Set thw width to 100% of the viewport */
+  height: 3em; /* Set the footer elements height to 3 times larger than its current font size*/
+  color: white;
+}
+h1, h2, h3 {
+   font-family: "Playfair Display", serif;
+  color:black;
+  font-weight: bold;
+}
+p {
+  font-family: "Lora", serif;
+}
+.center {
+  text-align: center;
+}
+.wrap {
+  float: right;
+}
+.caption {
+    font-style: italic;
+    font-size: small;
+}
